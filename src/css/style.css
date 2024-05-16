@@ -1,0 +1,79 @@
+body {
+    overflow: hidden;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    margin-left: 150px;
+}
+
+main picture img {
+    height: 100%;
+}
+
+main .info {
+    margin-top: 50px;
+    width: 100%;
+}
+
+main .info .logo {
+    margin-bottom: 100px;
+}
+main .info .imagem-responsivo {
+    display: none;
+}
+
+main .info .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 20px;
+}
+main .info .content .title {
+    font-weight: 400;
+    letter-spacing: 7px;
+    max-width: 200px;
+    font-size: 60px;
+    line-height: 60px;
+    cursor: default;
+    text-transform: uppercase;
+}
+main .info .content .title span {
+    color:  hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+main .info .content .description {
+    color:  hsl(0, 36%, 70%);
+    line-height: 25px;
+}
+
+main .info .content .register {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+}
+main .info .content .register .register-email {
+    border-radius: 20px;
+    border: 1.5px solid hsla(0, 6%, 24%, 0.6);
+    opacity: 0.6;
+    padding: 10px 16px;
+    font-size: 13px;
+    width: 90%;
+}
+main .info .content .register .btn-email {
+    background-color:hsl(0, 74%, 74%);
+    padding: 8px 25px;
+    border: none;
+    border-radius: 35px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    transition: .1s ease-in;
+}
+main .info .content .register .btn-email:active{
+    background-color:hsl(0, 80%, 86%);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="info">
+            <img class="logo" src="./src/images/logo.svg" alt="logo">
+            <img class="imagem-responsivo" src="./src/images/hero-mobile.jpg" alt="imagem mobile">
+            <div class="content">
+                <h1 class="title"><span>We're</span> coming soon</h1>
+                <p class="description">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals. </p>
+                <div class="register">
+                    <input class="register-email" type="email" name="cadastro-email" id="register-email" placeholder="Email Address">
+                    <button class="btn-email"><img src="./src/images/icon-arrow.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <picture>
+            <source media="(min-width: 1440px )" srcset="./src/images/hero-desktop.jpg">
+            <source media="(max-width: 375px )" srcset="./src/images/hero-mobile.jpg">
+            <img src="./src/images/hero-desktop.jpg" alt="Mulher fazendo pose">
+        </picture>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
