@@ -23,7 +23,7 @@ Ainda em construção
 
 ## Demo
 
-[Link para a demonstração do projeto (ainda em construção)]()
+[Link para a demonstração do projeto (ainda em construção)](https://bruno-nog.github.io/verificador-email/)
 
 ## Contato
 
