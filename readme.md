@@ -9,17 +9,18 @@
 - [Demo](#demo)
 - [Contato](#contato)
 
-![Ainda em construção]()
+![gif do projeto](./src/images/email-validacao.gif)
 
 ## Visão Geral
 
-Ainda em construção
+Site de um desafio do FrontEndMentor, utilizando HTML, css e JS para automatizar o site. O validor de email é fictício, somente valida a estrutura de um email.
 
 ## Funcionalidades
 
 - Visual atrativo e fácil e simples;
 - Verificador de email feito via JS;
 - O verificador de email é umá função que há em diversos sites e empresas, pois tudo precisa de um email, então é um conhecimento essencial de um programador para se ter em seu portfolio;
+- HTML, CSS E JS
 
 ## Demo
 
